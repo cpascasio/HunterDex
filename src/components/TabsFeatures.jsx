@@ -72,7 +72,7 @@ const Tabs = ({ monsters, selected, setSelected }) => {
             setSelected={setSelected}
             selected={selected === index}
             //Icon={icons[monster.name.replace(/ /g, "_")]}
-            Icon={`../../public/MHW-${converter(monster.name)}_Icon.png`}
+            Icon={`/MHW-${converter(monster.name)}_Icon.png`}
             title={name}
             tabNum={index}
           />

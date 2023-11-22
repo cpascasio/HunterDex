@@ -37,7 +37,7 @@ const TabsFeatures = ({ monsters }) => {
               >
                 <ExampleFeature
                   monster={monster}
-                  Icon={`../../public/MHW-${converter(monster.name)}_Icon.png`}
+                  Icon={`/MHW-${converter(monster.name)}_Icon.png`}
                 />
               </motion.div>
             ) : undefined;
